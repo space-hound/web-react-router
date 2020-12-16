@@ -18,7 +18,7 @@ export default class App extends Component {
                     <Link to="/player/1">Player</Link>
                     <Link to="/search/searchterm">Search</Link>
                     <Link to="/settings">Settings</Link>
-                    <Link to="/favourites">Favourites</Link>
+                    <Link to="/favourites">Favourites - Redirect</Link>
                     <Link to="/pamparam">Not Match</Link>
                 </div>
 
@@ -41,6 +41,7 @@ export default class App extends Component {
                     />
                     <Route
                         path="/favourites"
+                        redirect="/player/1000"
                         component={Favourites}
                     />
                     <Route

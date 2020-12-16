@@ -1,4 +1,5 @@
-const Route = ({ path, component }) => {
+
+const Route = ({ path, component, redirect }) => {
     return null;
 }
 

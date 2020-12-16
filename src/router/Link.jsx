@@ -34,7 +34,7 @@ const Link = ({ style, className, to, children }) => {
 
 Link.defaultProps = {
     to: '',
-    style: { marginRight: '32px' },
+    style: {},
     className: '',
     children: null
 }

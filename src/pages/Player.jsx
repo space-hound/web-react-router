@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Player = ({ id }) => {
-    return <h1>Player: {id}</h1>
+const Player = ({ router }) => {
+    return <h1>Player: {router.id}</h1>
 }
 
 export default Player;
